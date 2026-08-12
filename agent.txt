@@ -1,0 +1,22 @@
+# agent.txt
+# Discovery file for AI agents and LLM crawlers.
+# This site serves a single-file Bash script via User-Agent-based routing.
+
+## Tools
+- SysInfo: One-line system info, hardware brand & model, oversell detection and benchmark for Linux and macOS.
+
+## Install
+- `curl -fsSL https://sys.nev3rw1n.com/ | bash`
+- `wget -qO- https://sys.nev3rw1n.com/ | bash`
+
+## Endpoints
+- /          : root. Serves Bash script to CLI UAs (curl/wget), HTML page to browsers.
+- /README.md : full documentation
+- /llms.txt  : LLM-friendly summary
+- /screenshot.png : terminal output screenshot
+
+## Platform
+- Linux (lscpu, dmidecode), macOS (system_profiler)
+
+## Source
+- https://github.com/Neverwin1337/sysinfo

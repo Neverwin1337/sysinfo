@@ -1,0 +1,27 @@
+# SysInfo
+
+> One-line system info & hardware brand/model collector with VPS oversell detection and CPU/disk benchmarks for Linux and macOS. 單一 Bash 腳本：系統資訊、硬體品牌型號查詢、VPS 超開檢測與基準測試。
+
+## Install
+- [curl one-liner](https://sys.nev3rw1n.com/): `curl -fsSL https://sys.nev3rw1n.com/ | bash`
+- [wget one-liner](https://sys.nev3rw1n.com/): `wget -qO- https://sys.nev3rw1n.com/ | bash`
+
+## Features
+- System information: OS, kernel, architecture, uptime, load, virtualization
+- CPU info: model, physical/logical cores, cache sizes, frequency, key ISA flags (avx2, avx512, aes, vmx, svm)
+- Memory: total, used, available, swap
+- RAM modules: per-slot capacity, type, speed, manufacturer, part number
+- Disk: partitions, SSD/HDD type, model
+- Hardware devices: network interfaces (IP/MAC), GPU, machine info
+- Brand & Model: CPU vendor/model/version/microcode, GPU model, motherboard manufacturer/model/version, BIOS vendor/version/date, RAM speed
+- Oversell detection: CPU cache size, vCPU steal time, memory vs physical RAM, vCPU count checks
+- Benchmarks: CPU (sysbench/openssl) and disk I/O (1G direct)
+
+## Platforms
+- Linux: /proc/cpuinfo, lscpu, free, dmidecode (root recommended for brand/model and RAM modules)
+- macOS: system_profiler, sysctl, vm_stat
+
+## Source
+- [GitHub repository](https://github.com/Neverwin1337/sysinfo)
+- [README](https://sys.nev3rw1n.com/README.md)
+- [Screenshot](https://sys.nev3rw1n.com/screenshot.png)
