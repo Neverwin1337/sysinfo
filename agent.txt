@@ -12,6 +12,8 @@
 ## Endpoints
 - /          : root. Serves Bash script to CLI UAs (curl/wget), HTML page to browsers.
 - /README.md : full documentation
+- /index.md : Markdown summary of the site
+- /ai/summary.json : machine-readable project summary
 - /llms.txt  : LLM-friendly summary
 - /screenshot.png : terminal output screenshot
 

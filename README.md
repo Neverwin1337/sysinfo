@@ -38,7 +38,7 @@ curl -fsSL https://sys.nev3rw1n.com/ -o sysinfo.sh
 bash sysinfo.sh
 ```
 
-> 本專案同時佈署於 GitHub Pages，原始檔亦位於 repo 根目錄 `index.html`（Bash 腳本）。
+> 網域根路徑經 Cloudflare 依 User-Agent 分流：瀏覽器顯示介紹頁，curl/wget 取得腳本。原始腳本位於 repo 根目錄 `index.html`；供機器閱讀的頁面摘要見 [index.md](index.md)。執行遠端腳本前，建議先檢查原始碼。
 
 ---
 
@@ -108,6 +108,8 @@ macOS 上另顯示：CPU Chip、機型（Model Identifier）、GPU 廠商、記�
 原始碼為單一檔案，可直接閱讀與修改：
 
 - `index.html` — 完整 Bash 腳本（佈署於 GitHub Pages）
+- `index.md` — 網站內容的 Markdown 摘要
+- `ai/summary.json` — 機器可讀的專案摘要
 - `CNAME` — GitHub Pages 自訂網域設定
 
 本專案由 **bench.sh** 演進而來，屬於原「系統資訊蒐集 + 基準測試」工具，並加入品牌型號查詢與超開檢測功能。

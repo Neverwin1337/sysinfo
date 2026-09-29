@@ -1,0 +1,11 @@
+{
+  "name": "SysInfo",
+  "description": "Free single-file Bash script for Linux and macOS system information, hardware identification and benchmarks; includes indicative Linux VPS oversell checks.",
+  "url": "https://sys.nev3rw1n.com/",
+  "documentation": "https://sys.nev3rw1n.com/README.md",
+  "markdown": "https://sys.nev3rw1n.com/index.md",
+  "source": "https://github.com/Neverwin1337/sysinfo",
+  "platforms": ["Linux", "macOS"],
+  "features": ["system information", "CPU/GPU/motherboard/BIOS models", "memory and disk information", "Linux VPS oversell indicators", "CPU and disk benchmarks"],
+  "license": "MIT"
+}

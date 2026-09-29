@@ -24,4 +24,6 @@
 ## Source
 - [GitHub repository](https://github.com/Neverwin1337/sysinfo)
 - [README](https://sys.nev3rw1n.com/README.md)
+- [Markdown site summary](https://sys.nev3rw1n.com/index.md)
+- [Machine-readable summary](https://sys.nev3rw1n.com/ai/summary.json)
 - [Screenshot](https://sys.nev3rw1n.com/screenshot.png)
